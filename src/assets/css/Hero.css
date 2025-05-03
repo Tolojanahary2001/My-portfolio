@@ -1,35 +1,49 @@
 #heroSection{
-    background-image: url("../img/bg-hero.jpg");
+    background-image:
+    linear-gradient(to bottom left, 
+    rgb(255, 255, 255) 0%,        /* Top : couleur pleine */
+    rgba(255, 255, 255, 0.9) 70%,     /* Milieu : couleur + transparence */
+    rgb(255, 255, 255,0) 80%        /* Bas : image visible */
+  ),
+    url("../img/bg-hero2.png");
     /* background-attachment: fixed; */
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: top left;
     width: 100%;
 }
 .hero{
     height: 100%;
-    background-color: rgba(240, 248, 255, 0.664);
-    backdrop-filter: blur(5px);
+    /* background-color: rgba(240, 248, 255, 0.664); */
+    /* backdrop-filter: blur(5px); */
+}
+.mySkills{
+    white-space: nowrap;
 }
 @media (min-width:576px) {
     .hero{
         display: flex;
         /* justify-content: start; */
         align-items: center;
-        height: 85vh;
+        height: 90vh;
     }
 }
-h1 > span{
-    font-size: calc(1.375rem + 1.5vw);
-    white-space: nowrap;
+h1{
+    /* font-size: calc(1.375rem + 1.5vw); */
+    /* white-space: nowrap; */
 }
 .myBtnContainer{
     display: flex;
     gap: 10px;
 }
 .mypicContainer{
-    text-align: right;
-    justify-content: center;
+    background-color: var(--blue);
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
+    position: absolute;
+    right: 0;
+    padding: 20px;
+    justify-content: left;
 }
 .coverPic{
     background-color: white;
@@ -39,7 +53,7 @@ h1 > span{
     overflow: hidden;
     position: relative;
     border: 10px solid #ccc;
-}                     
+}
 .myPicture{
     width: 250px;
 }

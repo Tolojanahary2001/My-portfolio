@@ -5,11 +5,11 @@ function Hero() {
     return (
         <section id="heroSection">
             <div className="hero">
-                <div className="container py-5">
-                    <div className="row">
+                <div className="container mb-5">
+                    <div className="row mb-5">
                         <div className="col-lg-8 myDescriptionContainer">
                             <h2>Hello world!! </h2>
-                            <h1>Je suis un <span className='mySkills color-blue'>Développeur Front-end</span></h1>
+                            <h1 className='h1 titleHero'>Je suis un <span className='mySkills color-blue'>Développeur Front-end</span></h1>
                             <p>Bonjour, je m'appelle Tolojanahary, jeune passionné de l'informatique, particulièrement dans le développement web et la création d'interfaces modernes. J’aime transformer des idées en expériences visuelles fluides, accessibles et intuitives.</p>
                             <div className="myBtnContainer">
                                 <button className='myBtn myBtn-primary'>A propos de moi</button>
@@ -23,7 +23,6 @@ function Hero() {
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>

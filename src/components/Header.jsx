@@ -2,7 +2,7 @@ import '../assets/css/Header.css'
 
 function Header() {
   return(
-<nav className="navbar sticky-top navbar-expand-sm navbar-light py-4">
+<nav className="navbar sticky-top navbar-expand-sm navbar-light">
   <div className="container">
         
     <a className="navbar-brand" href="javascript:void(0)" alt="logo"></a>
@@ -15,7 +15,7 @@ function Header() {
           <a className="nav-link" href="javascript:void(0)">Accueil</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="javascript:void(0)">A Propos de moi</a>
+          <a className="nav-link" href="javascript:void(0)">A Propos</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="javascript:void(0)">Mes travaux</a>

@@ -1,5 +1,60 @@
 #aboutSection{
-    background-color: var(--white);
-    height: 700px;
+    background-image:
+    linear-gradient(to bottom right, 
+    #0070ff 0%,        /* Top : couleur pleine */
+    #0070ff 75%,     /* Milieu : couleur + transparence */
+    rgb(255, 255, 255,0) 90%        /* Bas : image visible */
+  ),
+    url("../img/bg-about.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top right;
+    color: var(--white);
     width: 100%;
+    height: 90vh;
+    padding: 50px 0;
 }
+.aboutDescription > p{
+    text-align: justify;
+}
+h2.aboutTitle{
+    font-size: 50px;
+    text-decoration: underline;
+}
+.calmContainerPic{
+    background-image: url("../img/vacance.png");
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+}
+.bgColorAbout {
+    background-color: rgba(43, 46, 49, 0.301);
+    z-index: 2;
+  }
+  
+  .myAboutpic {
+    z-index: 1;
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+  }
+  .myAboutRightPic{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .myAboutLeftPic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  h3.aboutTitle{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+    color: var(--white);
+    text-align: center;
+  }
