@@ -1,0 +1,45 @@
+#heroSection{
+    background-image: url("../img/bg-hero.jpg");
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    width: 100%;
+}
+.hero{
+    height: 100%;
+    background-color: rgba(240, 248, 255, 0.664);
+    backdrop-filter: blur(5px);
+}
+@media (min-width:576px) {
+    .hero{
+        display: flex;
+        /* justify-content: start; */
+        align-items: center;
+        height: 85vh;
+    }
+}
+h1 > span{
+    font-size: calc(1.375rem + 1.5vw);
+    white-space: nowrap;
+}
+.myBtnContainer{
+    display: flex;
+    gap: 10px;
+}
+.mypicContainer{
+    text-align: right;
+    justify-content: center;
+}
+.coverPic{
+    background-color: white;
+    display: inline-block;
+    /* padding: 0 0px; */
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    border: 10px solid #ccc;
+}                     
+.myPicture{
+    width: 250px;
+}
