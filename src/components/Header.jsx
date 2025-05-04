@@ -15,7 +15,7 @@ function Header() {
           <a className="nav-link" href="javascript:void(0)">Accueil</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="javascript:void(0)">A Propos</a>
+          <a className="nav-link" href="javascript:void(0)">Technologies</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="javascript:void(0)">Mes travaux</a>
@@ -30,4 +30,3 @@ function Header() {
   )
 }
 export default Header;
-
