@@ -55,46 +55,23 @@
 .myPicture{
     width: 250px;
 }
+#titleSkills {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  white-space: nowrap;
+  display: inline-block;
+}
 
+.cursor {
+  display: inline-block;
+  width: 5px;
+  color: var(--white);
+  background-color: var(--blue);
+  animation: blink 0.7s step-end infinite;
+  font-weight: 500 !important;
+}
 
-h1#titleSkills {  
-    font-family: monospace;  
-    font-size: 2rem;  
-    white-space: nowrap;  
-    overflow: hidden;  
-    border-right: 2px solid currentColor;  
-    --length: 20;  
-    width: 0;  
-    display: inline-block;  
-  }  
-
-  .cursor {  
-    animation: blink 0.7s step-end infinite;  
-  }  
-
-  .typing {  
-    animation:  
-      typing 2s steps(var(--length)) forwards,  
-      blink   0.7s step-end infinite;  
-  }  
-
-  .erasing {  
-    animation:  
-      erase 2s steps(var(--length)) forwards,  
-      blink   0.7s step-end infinite;  
-  }  
-
-  @keyframes typing {  
-    from { width: 0; }  
-    to   { width: calc(var(--length) * 1ch); }  
-  }  
-
-  @keyframes erase {  
-    from { width: calc(var(--length) * 1ch); }  
-    to   { width: 0; }  
-  }  
-
-  @keyframes blink {  
-    0%, 100% { border-right-color: currentColor; }  
-    50%      { border-right-color: transparent; }  
-  }
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0; }
+}
