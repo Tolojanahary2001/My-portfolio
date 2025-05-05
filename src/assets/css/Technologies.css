@@ -1,18 +1,53 @@
 #technologie{
-    /* background-color: var(--blue); */
+    background-color: rgba(255, 255, 255, 0.119);
+    backdrop-filter: blur(8px);
     /* color: var(--white); */
 }
 .titleTech{
     font-size: 50px;
     font-weight: 700;
+    margin-bottom: 100px;
 }
 .borderIcon{
     /* border: 4px solid var(--blue); */
     border-radius: 50%;
     display: inline-block;
     padding: 20px;
+    height: 80px;
 }
 .iconTech{
-    width: 60px;
+    width: 40px;
 }
-
+.iconTech.figma{
+    width: 30px !important;
+}
+.progress{
+    margin: 0 20px;
+}
+.progress-bar{
+    background-color:var(--blue);
+}
+.progress-bar.html{
+    width: 90%;
+}
+.progress-bar.css{
+    width: 80%;
+}
+.progress-bar.js{
+    width: 70%;
+}
+.progress-bar.bs{
+    width: 80%;
+}
+.progress-bar.jquery{
+    width: 70%;
+}
+.progress-bar.react{
+    width: 50%;
+}
+.progress-bar.php,
+.progress-bar.nodejs,
+.progress-bar.django,
+.progress-bar.mysql{
+    width: 50%;
+}

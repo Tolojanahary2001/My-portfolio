@@ -1,18 +1,5 @@
 
-#heroSection{
-    background-image:
-    linear-gradient(to bottom left, 
-    rgb(255, 255, 255) 0%,        /* Top : couleur pleine */
-    rgba(255, 255, 255, 0.9) 70%,     /* Milieu : couleur + transparence */
-    rgb(255, 255, 255,0) 80%        /* Bas : image visible */
-  ),
-    url("../img/bg-hero2.png");
-    /* background-attachment: fixed; */
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top left;
-    width: 100%;
-}
+
 .hero{
     height: 100%;
     /* background-color: rgba(240, 248, 255, 0.664); */

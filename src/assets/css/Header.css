@@ -2,7 +2,8 @@
     width: 100%;
     /* background-image: url("../img/bg-header.jpg"); */
     /* background-color: rgb(229, 234, 238); */
-    background-color: #fff;
+    background-color: #ffffffd8;
+    backdrop-filter: blur(20px);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
