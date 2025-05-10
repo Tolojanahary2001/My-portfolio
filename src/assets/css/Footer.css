@@ -1,0 +1,11 @@
+#footer{
+    background-color: #ffffffd8;
+    backdrop-filter: blur(20px);
+    padding-top: 20px;
+}
+#footer .container{
+    justify-content: space-between;
+}
+.icon-footer{
+    width: 30px;
+}

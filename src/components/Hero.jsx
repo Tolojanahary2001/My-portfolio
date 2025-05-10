@@ -42,7 +42,7 @@ function Hero() {
                                 <span className="cursor">|</span>
                             </h1>
                             <p>
-                                Bonjour, je m'appelle Tolojanahary, jeune passionné de l'informatique, particulièrement dans le développement web et la création d'interfaces modernes. J’aime transformer des idées en expériences visuelles fluides, accessibles et intuitives.
+                               Je suis Tolojanahary, jeune passionné de l'informatique, particulièrement dans le développement web et la création d'interfaces modernes. J’aime transformer des idées en expériences visuelles fluides, accessibles et intuitives.
                             </p>
                             <div className="myBtnContainer">
                                 <button className="myBtn myBtn-primary">Me contacter</button>

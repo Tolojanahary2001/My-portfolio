@@ -64,4 +64,9 @@ h1,.h1{
   color: var(--black);
   font-family: montserrat;
 }
+.title{
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 100px;
+}
 

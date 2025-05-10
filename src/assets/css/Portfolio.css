@@ -1,0 +1,7 @@
+#portfolio{
+    height: 500px;
+    width: 100%;
+}
+.card-portfolio{
+    background-color: var(--white);
+}

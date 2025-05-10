@@ -21,7 +21,7 @@ import xdIcon from '../assets/icons/xd.png'
 function Technologies() {
     return <section id="technologie" className='py-5'>
         <div className="container">
-            <h2 className="titleTech text-center">Mes compétences</h2>
+            <h2 className="title titleTech text-center">Mes compétences</h2>
             <div className="techContainer mt-5">
                 <div className="row">
                     <div className="col-lg-6">
