@@ -17,6 +17,13 @@
         order: -1;
     }
 }
+@media (max-width:991.66px) {
+    .navbar{
+        height: auto !important;
+        background-color: transparent !important;
+        /* backdrop-filter: blur(0px); */
+    }
+}
 .navbar-brand{
     width: 50px;
     height: 40px;
@@ -31,6 +38,15 @@
 }
 .navbar-toggler:focus {
     box-shadow: none!important;
+}
+.navbar-toggler-icon{
+    background-image: url("../icons/burgurIcon.svg") !important;
+}
+.navbar-toggler.collapsed .navbar-toggler-icon{
+    background-image: url("../icons/burgurIcon.svg");
+}
+.navbar-toggler .navbar-toggler-icon{
+    background-image: url("../icons/burgurIconX.svg");
 }
 .nav-item{
     margin-right: 20px;

@@ -10,6 +10,19 @@
   position: relative;
   top: -100px;
 }
+@media (max-width:991.66px) {
+  #aboutSection{
+    position: static !important;
+  }
+  .border-bottom-blue{
+    border-radius: 0 !important;
+
+    border-bottom: 3px solid var(--blue) !important;
+  }
+  .border-right-blue{
+    border-right : none !important
+  }
+}
 .border-right-blue{
   border-right: 3px solid var(--blue);
 }

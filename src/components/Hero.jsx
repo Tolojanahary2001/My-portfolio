@@ -22,7 +22,7 @@ function Hero() {
         } else {
             timeout = setTimeout(() => {
                 setIsDeleting(!isDeleting);
-                if (!isDeleting) return; // attendre avant de supprimer
+                if (!isDeleting) return;
                 setIndex((prev) => (prev + 1) % texts.length);
             }, 1000);
         }
@@ -36,13 +36,18 @@ function Hero() {
                 <div className="container mb-5">
                     <div className="row mb-5">
                         <div className="col-lg-8 myDescriptionContainer">
-                            <h2>Hello world!!</h2>
-                            <span className='h1'>Je suis </span><h1 id="titleSkills" className='color-blue'>
-                                {displayedText}
-                                <span className="cursor">|</span>
-                            </h1>
+                            <div className="coverPic">
+                                <img src={monImage} alt="mon image" className="myPicture" />
+                            </div>
+                            <div className='typingContainer'>
+                                <span className='h1'>Je suis </span><h1 id="titleSkills" className='color-blue'>
+                                    {displayedText}
+                                    <span className="cursor">|</span>
+                                </h1>
+                            </div>
+
                             <p>
-                               Je suis Tolojanahary, jeune passionné de l'informatique, particulièrement dans le développement web et la création d'interfaces modernes. J’aime transformer des idées en expériences visuelles fluides, accessibles et intuitives.
+                                Je m'appelle Tolojanahary, jeune passionné de la technologhie web et de l'interfaces modernes.
                             </p>
                             <div className="myBtnContainer">
                                 <button className="myBtn myBtn-primary">Me contacter</button>

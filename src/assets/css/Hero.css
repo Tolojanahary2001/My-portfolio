@@ -16,10 +16,51 @@
         height: 90vh;
     }
 }
-
+@media (max-width:991.66px) {
+    #heroSection{
+        background-image:
+    linear-gradient(to bottom left, 
+    rgb(255, 255, 255,0.8) 0%,        /* Top : couleur pleine */
+    rgba(255, 255, 255, 0.5) 50%,     /* Milieu : couleur + transparence */
+    rgb(255, 255, 255,0.5) 100%        /* Bas : image visible */
+  ),
+    url("../bg-white.jpeg");
+        background-position: left bottom;
+        background-attachment: fixed;
+        position: relative;
+        top:-10vh
+    }
+    .hero{
+        height: auto !important;
+        text-align: center !important;
+        padding: 100px 0;
+    }
+   .mypicContainer{
+    display: none !important;
+   }
+   .typingContainer{
+    display: flex;
+    flex-direction: column;
+   }
+   .coverPic{
+    border: 7px solid var(--blue) !important;
+    margin: 20px;
+    height: 150px !important;
+    width: 150px !important;
+   }
+   .myPicture{
+    width: 150px !important;
+    }
+    h1,.h1{
+        font-size: 30px !important;
+      }
+      .myBtnContainer{
+        justify-content: center !important;
+    }
+}
 .myBtnContainer{
     display: flex;
-    gap: 10px;
+    gap: 5px;
 }
 .mypicContainer{
     background-color: var(--blue);
@@ -52,7 +93,7 @@
 .cursor {
   display: inline-block;
   width: 5px;
-  color: var(--white);
+  color: transparent;
   background-color: var(--blue);
   animation: blink 0.7s step-end infinite;
   font-weight: 500 !important;

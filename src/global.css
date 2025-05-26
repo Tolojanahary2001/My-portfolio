@@ -4,20 +4,29 @@
   font-family: "Montserrat", sans-serif;
 
 }
-body{
-  background-image:
-    linear-gradient(to bottom left, 
-    rgb(255, 255, 255) 0%,        /* Top : couleur pleine */
-    rgba(255, 255, 255, 0.9) 70%,     /* Milieu : couleur + transparence */
-    rgb(255, 255, 255,0) 80%        /* Bas : image visible */
-  ),
-    url("./assets/img/bg-hero2.png");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top left;
-    width: 100%;
+@media (max-width:991.66px) {
+  body{
+    background-color: #eae6e6ac !important;
+  }
 }
+@media (min-width:991.66px) {
+  body{
+    background-image:
+      linear-gradient(to bottom left, 
+      rgb(255, 255, 255) 0%,        /* Top : couleur pleine */
+      rgba(255, 255, 255, 0.9) 70%,     /* Milieu : couleur + transparence */
+      rgb(255, 255, 255,0) 80%        /* Bas : image visible */
+    ),
+      url("./assets/img/bg-hero2.png");
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: top left;
+      width: 100%;
+  }
+}
+
+
 p{
   font-size: 20px;
 }

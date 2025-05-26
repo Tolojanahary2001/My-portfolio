@@ -3,7 +3,7 @@ import '../assets/css/Portfolio.css'
 function Portfolio(){
     return(
         <section id="portfolio" className='py-5'>
-            <div className="container">
+            <div className="container"> 
                 <h2 className='title text-center'>Mes travaux</h2>
                 <div className="row">
                     <div className="col-lg-4 card-portfolio py-5">
@@ -11,7 +11,7 @@ function Portfolio(){
                     </div>
                 </div>
             </div>
-        </section>
+        </section>   
     )
 }
 export default Portfolio

@@ -1,0 +1,21 @@
+#contact{
+    height: 500px;
+    width: 100%;
+    background-image: url("../img/developpeur.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.bg-contact{
+    height: 500px;
+    width: 100%;
+    background-image:
+    linear-gradient(to left, 
+    rgb(255, 255, 255) 0%,        /* Top : couleur pleine */
+    rgba(255, 255, 255, 0.9) 50%,   /* Milieu : couleur + transparence */
+    rgb(255, 255, 255,0) 60%        /* Bas : image visible */
+  ),
+    url("./assets/img/bg-hero2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top left;
+}
