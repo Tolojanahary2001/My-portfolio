@@ -7,8 +7,8 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 function App() {
-  return(
-    <> 
+  return (
+    <>
       <Header />
       <Hero />
       <About />

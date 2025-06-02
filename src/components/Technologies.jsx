@@ -28,37 +28,37 @@ function Technologies() {
                         <h3 className='text-center'>Technologie Front-end</h3>
                         <div className="borderIcon d-flex align-items-center">
                             <img src={htmlIcon} className='iconTech' alt="icon html" />
-                            <div class="progress w-100">
+                            <div className="progress w-100">
                                 <div className="progress-bar html" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
                             </div>
                         </div>
                         <div className="borderIcon d-flex align-items-center">
                             <img src={cssIcon} className='iconTech' alt="icon css" />
-                            <div class="progress w-100">
+                            <div className="progress w-100">
                                 <div className="progress-bar css" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
                             </div>
                         </div>
                         <div className="borderIcon d-flex align-items-center">
                             <img src={jsIcon} className='iconTech' alt="icon js" />
-                            <div class="progress w-100">
+                            <div className="progress w-100">
                                 <div className="progress-bar js" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
                             </div>
                         </div>
                         <div className="borderIcon d-flex align-items-center">
                             <img src={bsIcon} className='iconTech' alt="icon bs" />
-                            <div class="progress w-100">
+                            <div className="progress w-100">
                                 <div className="progress-bar bs" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
                             </div>
                         </div>
                         <div className="borderIcon d-flex align-items-center">
                             <img src={jqueryIcon} className='iconTech' alt="icon jquery" />
-                            <div class="progress w-100">
+                            <div className="progress w-100">
                                 <div className="progress-bar jquery" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
                             </div>
                         </div>
                         <div className="borderIcon d-flex align-items-center">
                             <img src={reactIcon} className='iconTech' alt="icon react" />
-                            <div class="progress w-100">
+                            <div className="progress w-100">
                                 <div className="progress-bar react" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
                             </div>
                         </div>
@@ -67,51 +67,51 @@ function Technologies() {
                         <h3 className='text-center'>Back-end et Base de donnée</h3>
                         <div className="borderIcon d-flex align-items-center">
                             <img src={phpIcon} className='iconTech' alt="icon php" />
-                            <div class="progress w-100">
+                            <div className="progress w-100">
                                 <div className="progress-bar php" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
                             </div>
                         </div>
                         <div className="borderIcon d-flex align-items-center">
                             <img src={nodejsIcon} className='iconTech' alt="icon nodejs" />
-                            <div class="progress w-100">
+                            <div className="progress w-100">
                                 <div className="progress-bar nodejs" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
                             </div>
                         </div>
                         <div className="borderIcon d-flex align-items-center">
                             <img src={djangoIcon} className='iconTech' alt="icon django" />
-                            <div class="progress w-100">
+                            <div className="progress w-100">
                                 <div className="progress-bar django" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
                             </div>
                         </div>
                         <div className="borderIcon d-flex align-items-center">
                             <img src={mysqlIcon} className='iconTech' alt="icon mysql" />
-                            <div class="progress w-100">
+                            <div className="progress w-100">
                                 <div className="progress-bar mysql" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
                             </div>
                         </div>
                         <h3 className='text-center mt-4'>Design UI</h3>
                         <div className="text-center">
-                        <div className="borderIcon">
-                            <img src={figmaIcon} className='iconTech figma' alt="icon figma" />
-                        </div>
-                        <div className="borderIcon">
-                            <img src={psIcon} className='iconTech' alt="icon photoshop" />
-                        </div>
-                        <div className="borderIcon">
-                            <img src={aiIcon} className='iconTech' alt="icon illustrator" />
-                        </div>
-                        <div className="borderIcon">
-                            <img src={idIcon} className='iconTech' alt="icon inDesign" />
-                        </div>
-                        <div className="borderIcon">
-                            <img src={prIcon} className='iconTech' alt="icon premier pro" />
-                        </div>
-                        <div className="borderIcon">
-                            <img src={aeIcon} className='iconTech' alt="icon after effects" />
-                        </div>
-                        <div className="borderIcon">
-                            <img src={xdIcon} className='iconTech' alt="icon xd" />
-                        </div>
+                            <div className="borderIcon">
+                                <img src={figmaIcon} className='iconTech figma' alt="icon figma" />
+                            </div>
+                            <div className="borderIcon">
+                                <img src={psIcon} className='iconTech' alt="icon photoshop" />
+                            </div>
+                            <div className="borderIcon">
+                                <img src={aiIcon} className='iconTech' alt="icon illustrator" />
+                            </div>
+                            <div className="borderIcon">
+                                <img src={idIcon} className='iconTech' alt="icon inDesign" />
+                            </div>
+                            <div className="borderIcon">
+                                <img src={prIcon} className='iconTech' alt="icon premier pro" />
+                            </div>
+                            <div className="borderIcon">
+                                <img src={aeIcon} className='iconTech' alt="icon after effects" />
+                            </div>
+                            <div className="borderIcon">
+                                <img src={xdIcon} className='iconTech' alt="icon xd" />
+                            </div>
                         </div>
                     </div>
                 </div>

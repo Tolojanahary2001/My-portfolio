@@ -13,7 +13,7 @@ function Hero() {
         const currentText = texts[index];
         let timeout;
 
-        if (!isDeleting && charIndewx <= currentText.length) {
+        if (!isDeleting && charIndex <= currentText.length) {
             setDisplayedText(currentText.substring(0, charIndex));
             timeout = setTimeout(() => setCharIndex(prev => prev + 1), 100);
         } else if (isDeleting && charIndex >= 0) {
