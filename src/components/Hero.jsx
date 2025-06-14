@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import '../assets/css/Hero.css';
 import monImage from '../assets/tolotra.png';
+import fleche from '../assets/icons/fleche.svg';
+import downloadIcon from '../assets/icons/download.svg'
 
 function Hero() {
     const texts = ["Développeur Front-end", "Web Designer UI/UX", "Intégrateur"];
@@ -31,12 +33,12 @@ function Hero() {
     }, [charIndex, isDeleting, index, texts]);
 
     return (
-        <section id="heroSection">
+        <section id="hero">
             <div className="hero">
                 <div className="container mb-5">
                     <div className="row mb-5">
                         <div className="col-lg-8 myDescriptionContainer">
-                            <div className="coverPic">
+                            <div className=" mobilePic d-inline-block d-lg-none">
                                 <img src={monImage} alt="mon image" className="myPicture" />
                             </div>
                             <div className='typingContainer'>
@@ -45,13 +47,14 @@ function Hero() {
                                     <span className="cursor">|</span>
                                 </h1>
                             </div>
-
                             <p>
                                 Je m'appelle Tolojanahary, jeune passionné de la technologhie web et de l'interfaces modernes.
                             </p>
                             <div className="myBtnContainer">
                                 <button className="myBtn myBtn-primary">Me contacter</button>
-                                <button className="myBtn myBtn-primary">Télécharger mon CV</button>
+                                <button className="myBtn myBtn-primary d-flex justify-content-center gap-2"><span>Télécharger mon CV</span>
+                                    <img src={downloadIcon} className='img-fluid' width="20" alt="" />
+                                </button>
                             </div>
                         </div>
                         <div className="col-lg-4 d-flex align-items-center mypicContainer">
@@ -59,6 +62,9 @@ function Hero() {
                                 <img src={monImage} alt="mon image" className="myPicture" />
                             </div>
                         </div>
+                    </div>
+                    <div className="w-100 text-center">
+                        <img src={fleche} alt="fleche" className="fleche" />
                     </div>
                 </div>
             </div>

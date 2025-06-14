@@ -1,80 +1,100 @@
-*{
+* {
   padding: 0;
   margin: 0;
   font-family: "Montserrat", sans-serif;
 }
+
 @media (max-width:991.66px) {
-  body{
+  * {
+    font-size: 18px !important;
+  }
+
+  body {
     background-color: #eae6e6ac !important;
   }
+
+  p {
+    font-size: 18px !important;
+  }
 }
+
 @media (min-width:991.66px) {
-  body{
+  body {
     background-image:
-      linear-gradient(to bottom left, 
-      rgb(255, 255, 255) 0%,        /* Top : couleur pleine */
-      rgba(255, 255, 255, 0.9) 70%,     /* Milieu : couleur + transparence */
-      rgb(255, 255, 255,0) 80%        /* Bas : image visible */
-    ),
+      linear-gradient(to bottom left,
+        rgb(255, 255, 255) 0%,
+        /* Top : couleur pleine */
+        rgba(255, 255, 255, 0.9) 70%,
+        /* Milieu : couleur + transparence */
+        rgb(255, 255, 255, 0) 80%
+        /* Bas : image visible */
+      ),
       url("./assets/img/bg-hero2.png");
-      background-attachment: fixed;
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: top left;
-      width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top left;
+    width: 100%;
   }
 }
 
 
-p{
+p {
   font-size: 20px;
 }
 
-:root{
-  --white : #fff !important;
-  --blue : #0070FF !important;
+:root {
+  --white: #fff !important;
+  --blue: #0070FF !important;
   --black: #333333 !important;
   --gray: #cccccc5d !important;
 }
-.color-blue{
+
+.color-blue {
   color: var(--blue) !important;
 }
-.myBtn{
+
+.myBtn {
   padding: 10px 30px 12px 30px;
   background: transparent;
   border: solid 2px var(--blue);
   border-radius: 30px;
   transition: all 0.3s;
-
+  font-weight: 500;
 }
 
-.myBtn-primary{
+.myBtn-primary {
   background-color: var(--blue);
   color: var(--white);
 }
-.myBtn-primary:hover{
+
+.myBtn-primary:hover {
   background: transparent;
   color: var(--black);
 }
-.myBtn-secondary{
+
+.myBtn-secondary {
   background-color: var(--white);
   color: var(--black);
 }
-.myBtn-secondary:hover{
-  background:transparent;
+
+.myBtn-secondary:hover {
+  background: transparent;
   color: var(--white);
   border: 2px solid var(--white);
   transition: all 0.3s;
 }
-h1,.h1{
+
+h1,
+.h1 {
   font-size: 50px !important;
   font-weight: 700 !important;
   color: var(--black);
   font-family: montserrat;
 }
-.title{
+
+.title {
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 100px;
 }
-

@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
     width: 100%;
     /* background-image: url("../img/bg-header.jpg"); */
     /* background-color: rgb(229, 234, 238); */
@@ -9,22 +9,28 @@
     background-position: center;
     height: 10vh;
 }
+
 .navbar-collapse {
     flex-grow: 0 !important;
 }
+
 @media (max-width:576px) {
-    .navbar-brand,.navbar-toggler{
+
+    .navbar-brand,
+    .navbar-toggler {
         order: -1;
     }
 }
+
 @media (max-width:991.66px) {
-    .navbar{
+    .navbar {
         height: auto !important;
         background-color: transparent !important;
         /* backdrop-filter: blur(0px); */
     }
 }
-.navbar-brand{
+
+.navbar-brand {
     width: 50px;
     height: 40px;
     background-image: url("../img/logo.svg");
@@ -32,26 +38,32 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .navbar-toggler {
     border: none !important;
     outline: 0 !important;
 }
+
 .navbar-toggler:focus {
-    box-shadow: none!important;
+    box-shadow: none !important;
 }
-.navbar-toggler-icon{
+
+.navbar-toggler-icon {
     background-image: url("../icons/burgurIcon.svg") !important;
 }
-.navbar-toggler.collapsed .navbar-toggler-icon{
+
+.navbar-toggler.collapsed .navbar-toggler-icon {
     background-image: url("../icons/burgurIcon.svg");
 }
-.navbar-toggler .navbar-toggler-icon{
+
+.navbar-toggler .navbar-toggler-icon {
     background-image: url("../icons/burgurIconX.svg");
 }
-.nav-item{
+
+.nav-item {
     margin-right: 20px;
 }
-.nav-link{
+
+.nav-link {
     color: var(--black) !important;
-    font-size: 20px;
 }
