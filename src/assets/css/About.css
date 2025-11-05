@@ -1,43 +1,10 @@
-
-
-#aboutSection{
-  background-color: var(--white);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-  border-radius: 30px;
-  color: var(--black);
+#about {
   width: 100%;
-  padding: 40px;
-  position: relative;
-  top: -100px;
-}
-@media (max-width:991.66px) {
-  #aboutSection{
-    position: static !important;
-  }
-  .border-bottom-blue{
-    border-radius: 0 !important;
-
-    border-bottom: 3px solid var(--blue) !important;
-  }
-  .border-right-blue{
-    border-right : none !important
-  }
-}
-.border-right-blue{
-  border-right: 3px solid var(--blue);
-}
-.card-about{
-  cursor: pointer;
-  padding: 0 20px;
-}
-.card-about div{
-  padding: 20px;
-  border-radius: 30px;
-  transition: all 0.3s;
-
-}
-.card-about:hover div{
-  background-color: var(--gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
+.aboutPicture {
+  width: 400px;
+}

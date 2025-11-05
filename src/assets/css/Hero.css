@@ -1,11 +1,9 @@
-#hero {
-    height: 90vh;
-}
-
 .hero {
     height: 100%;
     display: flex;
     align-items: center;
+    background-position: bottom;
+    background-size: cover;
 }
 
 .mySkills {
@@ -21,25 +19,24 @@
     border: 8px solid #ccc;
 }
 
-.myBtnContainer {
-    display: flex;
-    gap: 10px;
-}
-
 .mypicContainer {
-    background-color: var(--blue);
+    background-image: linear-gradient(to right,
+            rgba(0, 112, 225, 1) 0%,
+            #0070ff80 50%,
+            rgba(0, 112, 255, 0.0) 100%);
     border-top-left-radius: 150px;
     border-bottom-left-radius: 150px;
     position: absolute;
-    right: 0;
     padding: 20px;
     justify-content: left;
+    right: 0;
+    border: none;
+    outline: none;
 }
 
 .coverPic {
     background-color: white;
     display: inline-block;
-    /* padding: 0 0px; */
     border-radius: 50%;
     overflow: hidden;
     position: relative;
@@ -51,7 +48,7 @@
 }
 
 #titleSkills {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 2rem;
     white-space: nowrap;
     display: inline-block;
@@ -66,16 +63,7 @@
     font-weight: 500 !important;
 }
 
-.fleche {
-    border: 2px solid #0070FF;
-    border-radius: 50%;
-    width: 30px;
-    position: absolute;
-    left: 47%;
-    bottom: 20%;
-    animation: upDown 2s ease-in-out infinite;
-    transition: all 0.3s;
-}
+
 
 @keyframes blink {
 
@@ -86,95 +74,5 @@
 
     50% {
         opacity: 0;
-    }
-}
-
-@keyframes upDown {
-
-    0%,
-    100% {
-        bottom: 5%;
-    }
-
-    50% {
-        bottom: 8%;
-    }
-}
-
-
-@media (max-width:991.66px) {
-    #heroSection {
-        background-image:
-            linear-gradient(to bottom left,
-                rgb(255, 255, 255, 0.8) 0%,
-                /* Top : couleur pleine */
-                rgba(255, 255, 255, 0.5) 50%,
-                /* Milieu : couleur + transparence */
-                rgb(255, 255, 255, 0.5) 100%
-                /* Bas : image visible */
-            ),
-            url("../bg-white.jpeg");
-        background-position: left bottom;
-        background-attachment: fixed;
-        position: relative;
-        top: -10vh
-    }
-
-    .hero {
-        /* height: auto !important; */
-        text-align: center !important;
-        padding: 100px 0;
-    }
-
-    .mypicContainer {
-        display: none !important;
-    }
-
-    .typingContainer {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .coverPic {
-        border: 7px solid var(--blue) !important;
-        margin: 20px;
-        height: 150px !important;
-        width: 150px !important;
-    }
-
-    .myPicture {
-        width: 150px !important;
-    }
-
-    h1,
-    .h1,
-    span.cursor {
-        font-size: 30px !important;
-    }
-
-    .myBtnContainer {
-        justify-content: center !important;
-    }
-
-}
-
-@media (max-width:576px) {
-    #navbar {
-        height: 10vh !important;
-    }
-
-    #heroSection {
-        height: 90vh;
-    }
-
-    .myBtnContainer {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    h1,
-    .h1,
-    span.cursor {
-        font-size: 25px !important;
     }
 }
