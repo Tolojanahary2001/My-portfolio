@@ -1,11 +1,24 @@
-#footer{
-    background-color: #ffffffd8;
-    backdrop-filter: blur(20px);
-    padding-top: 20px;
+footer {
+    background-color: #fff;
+    padding-bottom: 80px;
+    color: #333;
+    position: relative;
 }
-#footer .container{
-    justify-content: space-between;
+
+footer p {
+    backdrop-filter: none;
 }
-.icon-footer{
-    width: 30px;
+
+.bg-footer {
+    backdrop-filter: blur(10px);
+    padding: 40px 0;
+    position: relative;
+
+}
+
+.footer-hr {
+    border-bottom: 1px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
