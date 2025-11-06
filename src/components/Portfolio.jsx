@@ -116,8 +116,8 @@ function Portfolio() {
             ],
             techs: [
                 { icon: phpIcon, width: 40 },
-                { icon: reactIcon, width: 40 },
-                { icon: illustratorIcon, width: 40 },
+                { icon: reactIcon, width: 30 },
+                { icon: illustratorIcon, width: 30 },
                 { icon: htmlIcon, width: 40 },
                 { icon: cssIcon, width: 40 },
                 { icon: jsIcon, width: 40 },
@@ -134,9 +134,9 @@ function Portfolio() {
                 { icon: accessIcon, label: "Accessibilité" }
             ],
             techs: [
-                { icon: figmaIcon, width: 40 },
-                { icon: photoshopIcon, width: 40 },
-                { icon: illustratorIcon, width: 40 },
+                { icon: figmaIcon, width: 20 },
+                { icon: photoshopIcon, width: 30 },
+                { icon: illustratorIcon, width: 30 },
                 { icon: htmlIcon, width: 40 },
                 { icon: cssIcon, width: 40 },
                 { icon: jsIcon, width: 40 },
@@ -153,9 +153,9 @@ function Portfolio() {
                 { icon: accessIcon, label: "Accessibilité" }
             ],
             techs: [
-                { icon: figmaIcon, width: 40 },
-                { icon: djangoIcon, width: 40 },
-                { icon: illustratorIcon, width: 40 },
+                { icon: figmaIcon, width: 20 },
+                { icon: djangoIcon, width: 30 },
+                { icon: illustratorIcon, width: 30 },
                 { icon: htmlIcon, width: 40 },
                 { icon: cssIcon, width: 40 },
                 { icon: jsIcon, width: 40 },
@@ -172,9 +172,9 @@ function Portfolio() {
                 { icon: accessIcon, label: "Accessibilité" }
             ],
             techs: [
-                { icon: figmaIcon, width: 40 },
-                { icon: photoshopIcon, width: 40 },
-                { icon: illustratorIcon, width: 40 },
+                { icon: figmaIcon, width: 20 },
+                { icon: photoshopIcon, width: 30 },
+                { icon: illustratorIcon, width: 30 },
                 { icon: htmlIcon, width: 40 },
                 { icon: cssIcon, width: 40 },
                 { icon: jsIcon, width: 40 },
@@ -191,9 +191,9 @@ function Portfolio() {
                 { icon: accessIcon, label: "Accessibilité" }
             ],
             techs: [
-                { icon: figmaIcon, width: 40 },
-                { icon: photoshopIcon, width: 40 },
-                { icon: illustratorIcon, width: 40 },
+                { icon: figmaIcon, width: 20 },
+                { icon: photoshopIcon, width: 30 },
+                { icon: illustratorIcon, width: 30 },
                 { icon: htmlIcon, width: 40 },
                 { icon: cssIcon, width: 40 },
                 { icon: jsIcon, width: 40 },
@@ -210,9 +210,9 @@ function Portfolio() {
                 { icon: accessIcon, label: "Accessibilité" }
             ],
             techs: [
-                { icon: figmaIcon, width: 40 },
-                { icon: photoshopIcon, width: 40 },
-                { icon: illustratorIcon, width: 40 },
+                { icon: figmaIcon, width: 20 },
+                { icon: photoshopIcon, width: 30 },
+                { icon: illustratorIcon, width: 30 },
                 { icon: htmlIcon, width: 40 },
                 { icon: cssIcon, width: 40 },
                 { icon: jsIcon, width: 40 },

@@ -1,7 +1,237 @@
-#portfolio{
-    height: 500px;
+/* portfolio */
+#portfolio {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.card-portfolio{
-    background-color: var(--white);
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.icon-portfolio {
+    background-color: var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    color: var(--white);
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 500;
+}
+
+
+.scroller__inner {
+    padding-block: 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+}
+
+.scroller__inner>div {
+    flex-shrink: 0;
+    transition: all 0.3s;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 999;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.scroller__inner>div button {
+    transition: all 0.3s;
+    position: absolute;
+    opacity: 0;
+    z-index: 2;
+}
+
+.scroller__inner>div:hover button {
+    opacity: 1;
+}
+
+.scroller__inner>div:hover {
+    cursor: pointer;
+}
+
+.scroller__inner>div img {
+    transition: all 0.3s;
+    z-index: 1;
+}
+
+.scroller__inner>div:hover img {
+    filter: blur(1px);
+    transform: scale(1.2);
+}
+
+.scroller[data-animated="true"] {
+    overflow: hidden;
+    mask: linear-gradient(90deg, transparent, white 5%, white 95%, transparent);
+}
+
+.scroller[data-animated="true"] .scroller__inner {
+    width: max-content;
+    animation: scroll 30s linear infinite;
+    animation-play-state: running;
+    /* ✅ état normal */
+}
+
+/* Stop scroll quand on hover OU quand popup est actif */
+.scroller:hover .scroller__inner,
+.scroller.paused .scroller__inner {
+    animation-play-state: paused;
+    /* ✅ gèle l’animation */
+}
+
+
+@keyframes scroll {
+    to {
+        transform: translate(calc(-50% - 0.5rem));
+    }
+}
+
+/* popup */
+/* Masqué par défaut mais garde le layout (display:flex déjà défini chez toi) */
+#popup {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 300ms ease, visibility 300ms ease;
+}
+
+/* Affiché quand actif */
+#popup.active {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+/* Effet zoom+fade sur le contenu */
+.popup-content {
+    transform: translateY(10px) scale(0.96);
+    opacity: 0;
+    transition: transform 300ms ease, opacity 300ms ease;
+}
+
+#popup.active .popup-content {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+}
+
+/* Empêcher le scroll de la page quand le popup est ouvert */
+body.popup-open {
+    overflow: hidden;
+}
+
+#popup {
+    background-color: #33333382;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    align-items: center;
+    z-index: 999;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bg-popup {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.closePopup {
+    cursor: pointer;
+}
+
+.popup-content {
+    background-color: #ffffff;
+    border-radius: 50px;
+}
+
+.titleProjet {
+    font-weight: 700;
+}
+
+.taskList {
+    list-style: none;
+    padding: 0 !important;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.taskList li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:1200px) {
+    ul.taskList li:first-child {
+        width: 16.66666667%;
+    }
+
+    ul.taskList li:nth-child(2) {
+        margin: 0 4px;
+    }
+
+    ul.taskList li:nth-child(3) {
+        margin: 0 12px;
+    }
+}
+
+@media (max-width:991px) {
+    ul.taskList li {
+        width: 25% !important;
+        margin: 0 !important;
+    }
+}
+
+@media (max-width:576px) {
+    ul.taskList li {
+        width: 50% !important;
+        padding: 10px;
+    }
+
+    .techList {
+        gap: 30px !important;
+    }
+
+    .p-5 {
+        padding: 2rem !important;
+    }
+
+    h2,
+    h5 {
+        text-align: center;
+    }
+
+    .popup-content button {
+        width: 100%;
+    }
+}
+
+.techList {
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 0 !important;
 }
