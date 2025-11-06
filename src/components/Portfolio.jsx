@@ -228,7 +228,7 @@ function Portfolio() {
                 <div className="col-md-8 mx-auto text-center">
                     <h2 className="mb-3" data-aos="fade-up" data-aos-delay="100">Portfolio</h2>
                     <p data-aos="fade-up" data-aos-delay="200">
-                        Voici quelques projets réalisés au sein de l’entreprise où j’ai travaillé,
+                        Voici quelques projets personnels et projets réalisés au sein de l’entreprise où j’ai travaillé,
                         mettant en valeur mes compétences en développement frontend et en webdesign.
                     </p>
                 </div>
