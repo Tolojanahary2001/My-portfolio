@@ -218,23 +218,6 @@ h2 {
 }
 
 @media (max-width:576px) {
-
-  #heroSection {
-    height: 90vh;
-  }
-
-  .myBtnContainer {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  h1,
-  .h1,
-  span.cursor,
-  span#typedText {
-    font-size: 25px !important;
-  }
-
   .navbar-nav {
     /* gap: 20px !important; */
     gap: 0 !important;
