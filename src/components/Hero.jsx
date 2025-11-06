@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import '../assets/css/Hero.css';
-import monImage from '../assets/tolotra.png';
-import fleche from '../assets/icons/fleche.svg';
+import monImage from '../assets/img/tolotra.webp';
 import downloadIcon from '../assets/img/icons/download.svg';
 import downloadIcon2 from '../assets/img/icons/download-light.svg';
 import githubIcon from '../assets/img/icons/github-dark.svg';
