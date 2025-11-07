@@ -45,13 +45,13 @@ function Hero() {
                                 <img src={monImage} alt="mon image" className="myPicture" />
                             </div>
                             <div className='typingContainer'>
-                                <p class="hello" data-aos="fade-up" data-aos-delay="200">Hello world !! 👋</p>
+                                <p className="hello" data-aos="fade-up" data-aos-delay="200">Hello world !! 👋</p>
                                 <span className='h1' data-aos="fade-up" data-aos-delay="300">Je suis </span>
                                 <h1 id="titleSkills" className='color-blue mb-2' data-aos="fade-in" data-aos-delay="500">
                                     {displayedText}
                                     <span className="cursor">|</span>
                                 </h1>
-                                <div class="mb-0 mb-sm-4">
+                                <div className="mb-0 mb-sm-4">
                                     <a href="https://github.com/Tolojanahary2001" target="_blank">
                                         <img src={githubIcon} width="50" alt="" data-aos="fade-up"
                                             data-aos-delay="600" />
@@ -76,10 +76,10 @@ function Hero() {
                                 <div data-aos="fade-up" data-aos-delay="1000">
                                     <a href='#contact' className="myBtn myBtn-secondary w-100 d-flex justify-content-center gap-2 position-relative overflow-hidden">
                                         <span>Télécharger mon CV</span>
-                                        <span class="icon-wrapper">
-                                            <img src={downloadIcon} class="img-fluid icon-default"
+                                        <span className="icon-wrapper">
+                                            <img src={downloadIcon} className="img-fluid icon-default"
                                                 width="20" alt="" />
-                                            <img src={downloadIcon2} class="img-fluid icon-hover"
+                                            <img src={downloadIcon2} className="img-fluid icon-hover"
                                                 width="20" alt="" />
                                         </span>
                                     </a>

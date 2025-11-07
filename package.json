@@ -4,7 +4,6 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://tolojanahary2001.github.io/My-portfolio",
-
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -14,6 +13,13 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^7.1.0",
+    "@fortawesome/free-brands-svg-icons": "^7.1.0",
+    "@fortawesome/free-regular-svg-icons": "^7.1.0",
+    "@fortawesome/free-solid-svg-icons": "^7.1.0",
+    "@fortawesome/react-fontawesome": "^3.1.0",
+    "aos": "^2.3.4",
+    "fontawesome": "^5.6.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
